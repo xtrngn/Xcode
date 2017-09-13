@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:macOS cmd Project.xcodeproj">
+      location = "self:cpp_stuct_and_obj_examplema.xcodeproj">
    </FileRef>
 </Workspace>

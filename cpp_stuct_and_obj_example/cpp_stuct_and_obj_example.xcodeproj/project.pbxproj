@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A85F87361F681B18005544A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A85F87351F681B18005544A7 /* main.cpp */; };
+		A8AC8E9A1F6935E20091D10F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8AC8E981F6935E20091D10F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A85F87321F681B18005544A7 /* macOS cmd Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "macOS cmd Project"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A85F87351F681B18005544A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		A85F873C1F681C09005544A7 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		A85F87321F681B18005544A7 /* cpp_struct_and_obj_example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_struct_and_obj_example; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8AC8E981F6935E20091D10F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = cpp_stuct_and_obj_example/main.cpp; sourceTree = SOURCE_ROOT; };
+		A8AC8E991F6935E20091D10F /* main.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = main.hpp; path = cpp_stuct_and_obj_example/main.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 		A85F87291F681B18005544A7 = {
 			isa = PBXGroup;
 			children = (
-				A85F87341F681B18005544A7 /* macOS cmd Project */,
+				A85F87341F681B18005544A7 /* cpp_struct_and_obj_example */,
 				A85F87331F681B18005544A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,26 +50,26 @@
 		A85F87331F681B18005544A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A85F87321F681B18005544A7 /* macOS cmd Project */,
+				A85F87321F681B18005544A7 /* cpp_struct_and_obj_example */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A85F87341F681B18005544A7 /* macOS cmd Project */ = {
+		A85F87341F681B18005544A7 /* cpp_struct_and_obj_example */ = {
 			isa = PBXGroup;
 			children = (
-				A85F87351F681B18005544A7 /* main.cpp */,
-				A85F873C1F681C09005544A7 /* main.h */,
+				A8AC8E981F6935E20091D10F /* main.cpp */,
+				A8AC8E991F6935E20091D10F /* main.hpp */,
 			);
-			path = "macOS cmd Project";
+			path = cpp_struct_and_obj_example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A85F87311F681B18005544A7 /* macOS cmd Project */ = {
+		A85F87311F681B18005544A7 /* cpp_struct_and_obj_example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A85F87391F681B18005544A7 /* Build configuration list for PBXNativeTarget "macOS cmd Project" */;
+			buildConfigurationList = A85F87391F681B18005544A7 /* Build configuration list for PBXNativeTarget "cpp_struct_and_obj_example" */;
 			buildPhases = (
 				A85F872E1F681B18005544A7 /* Sources */,
 				A85F872F1F681B18005544A7 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "macOS cmd Project";
-			productName = "macOS cmd Project";
-			productReference = A85F87321F681B18005544A7 /* macOS cmd Project */;
+			name = cpp_struct_and_obj_example;
+			productName = cpp_struct_and_obj_example;
+			productReference = A85F87321F681B18005544A7 /* cpp_struct_and_obj_example */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A85F872D1F681B18005544A7 /* Build configuration list for PBXProject "macOS cmd Project" */;
+			buildConfigurationList = A85F872D1F681B18005544A7 /* Build configuration list for PBXProject "cpp_stuct_and_obj_example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A85F87311F681B18005544A7 /* macOS cmd Project */,
+				A85F87311F681B18005544A7 /* cpp_struct_and_obj_example */,
 			);
 		};
 /* End PBXProject section */
@@ -122,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A85F87361F681B18005544A7 /* main.cpp in Sources */,
+				A8AC8E9A1F6935E20091D10F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +243,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A85F872D1F681B18005544A7 /* Build configuration list for PBXProject "macOS cmd Project" */ = {
+		A85F872D1F681B18005544A7 /* Build configuration list for PBXProject "cpp_stuct_and_obj_example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A85F87371F681B18005544A7 /* Debug */,
@@ -252,7 +252,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A85F87391F681B18005544A7 /* Build configuration list for PBXNativeTarget "macOS cmd Project" */ = {
+		A85F87391F681B18005544A7 /* Build configuration list for PBXNativeTarget "cpp_struct_and_obj_example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A85F873A1F681B18005544A7 /* Debug */,
