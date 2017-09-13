@@ -6,8 +6,8 @@
 //  Copyright © 2017. movAsi. All rights reserved.
 //
 
-#ifndef main_h
-#define main_h
+#ifndef main_hpp
+#define main_hpp
 
 #include <iostream>
 #include <string>
@@ -86,4 +86,4 @@ public:
     RecordStruct InputRecord;
 };
 
-#endif /* main_h */
+#endif /* main_hpp */
