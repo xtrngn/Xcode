@@ -1,1 +1,1 @@
-# This is a sample code which demonstrates some differences of a cpp structure and an object.
+# cpp_stuct_and_obj_example: a sample code demonstrates some properties of a cpp structure and an object.
